@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    padding: 20px 40px ;
+    border-radius: 10px;
+}
+.container .logo{
+    width: 100px;
+    margin: 0 auto;
+}
+.container .logo img{
+    width: 100%;
+}
+.container h1{
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.form-group{
+    margin-bottom: 15px;
+
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+   color: #666;
+}
+.form-group input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form button{
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all .5s;
+}
+form button:hover{
+    background-color: #218838;
+}
+
+#expense-list{
+    border: 2px solid #ccc;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.expense{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+.expense img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: all .5s;
+
+}
+.expense img:hover{
+    transform: scale(1.2);
+}
+.expense h2{
+    font-size: 30px;
+}
+.expense h3{
+    color: #666;
+}
