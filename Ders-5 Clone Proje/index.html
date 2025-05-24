@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+   <header >
+    <div class="left">
+        <div id="menu" class="icon">
+            <i class="bi bi-list"></i>
+        </div>
+        <img width="50px" src="./assets/gmail-logo.webp" alt="">
+        <span>Gmail</span>
+
+    </div>
+
+    <div class="middle">
+        <form >
+            <button class="icon">
+                <i class="bi bi-search"></i>
+            </button>
+            <input type="search" id="search" placeholder="Mail Arayın...">
+        </form>
+
+
+    </div>
+    <div class="right">
+        <i class="bi bi-patch-question"></i>
+        <i class="bi bi-gear-fill"></i>
+        <i class="bi bi-menu-button-wide-fill"></i>
+        <img width="30px" src="./assets/man.jpg" alt="">
+
+
+    </div>
+
+   </header>
+
+   <section>
+    <nav>
+        <div class="create">
+            <i class="bi bi-pencil-fill"></i>
+            <span>Oluştur</span>
+
+        </div>
+        <ul>
+            <li>
+                <input type="radio" >
+                <label for="">
+                    <i class="bi bi-card-image"></i>
+                    <span>Gelen Kutusu</span>
+                </label>
+
+            </li>
+              <li>
+                <input type="radio" >
+                <label for="">
+                   <i class="bi bi-star"></i>
+                    <span>Yıldızlı</span>
+                </label>
+
+            </li>
+              <li>
+                <input type="radio" >
+                <label for="">
+                    <i class="bi bi-clock"></i>
+                    <span>Zamanlı</span>
+                </label>
+
+            </li>
+              <li>
+                <input type="radio" >
+                <label for="">
+                    <i class="bi bi-arrow-right-circle"></i>
+                    <span>Gönderilenler</span>
+                </label>
+
+            </li>
+              <li>
+                <input type="radio" >
+                <label for="">
+                    <i class="bi bi-archive"></i>
+                    <span>Taslaklar</span>
+                </label>
+
+            </li>
+              <li>
+                <input type="radio" >
+                <label for="">
+                    <i class="bi bi-arrow-down"></i>
+                    <span>Daha Fazla</span>
+                </label>
+
+            </li>
+        </ul>
+
+        <div class="bottom">
+            <span>Kategoriler</span>
+            <i class="bi bi-plus-lg"></i>
+
+        </div>
+    </nav>
+
+    <main>
+        <div class="top">
+            <div class="left">
+                <input type="checkbox">
+                <i class="bi bi-arrow-clockwise"></i>
+                <i class="bi bi-three-dots-vertical"></i>
+            </div>
+            <div class="right">
+                <p>1-50 of 94</p>
+                <i class="bi bi-chevron-left"></i>
+                <i class="bi bi-chevron-right"></i>
+             </div>
+            </div>
+            <div class="mails">
+                <div class="mail">
+                    <div class="info">
+                        <input type="checkbox">
+                        <i class="bi bi-star-fill"></i>
+                        <b>Yağız</b>
+
+                    </div>
+                    <div class="content">
+                        <p class="title">24 Mayıs Etüt</p>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, adipisci.</p>
+
+                    </div>
+                    <div class="right" >
+                        <p class="time">24.05.2025</p>
+                    <button>Sil</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        
+    </main>
+
+    <aside>
+        <img src="assets/calendar-48.png" alt="">
+        <img src="assets/keep-48.png" alt="">
+        <img src="assets/task-48.png" alt="">
+        <img src="assets/account-48.png" alt="">
+        <span></span>
+        <i class="bi bi-plus-lg"></i>
+    </aside>
+
+
+   </section>
+
+   <div class="modal-wrapper">
+    <form class="modal" >
+        <div class="header">
+            <h5>Yeni İleti</h5>
+            <button type="button" class="close-modal">
+                <span>X</span>
+            </button>
+        </div>
+        <input type="text" placeholder="Kime">
+        <input type="text" placeholder="Konu">
+        <textarea></textarea>
+        <button type="submit" id="send">Gönder</button>
+    </form>
+
+   </div>
+    
+</body>
+</html>
